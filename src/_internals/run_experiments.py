@@ -1,7 +1,7 @@
-from homework.src._internals.calculate_metrics import calculate_metrics
-from homework.src._internals.prepare_data import prepare_data
-from homework.src._internals.print_metrics import print_metrics
-from homework.src._internals.save_model import save_model
+from src._internals.calculate_metrics import calculate_metrics
+from src._internals.prepare_data import prepare_data
+from src._internals.print_metrics import print_metrics
+from src._internals.save_model import save_model
 
 
 def run_experiments(estimator):
